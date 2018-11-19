@@ -1,40 +1,40 @@
-.. _turtlecoind:
+.. _blocd:
 
-Turtlecoind
+BLOCd
 ===========
 
-This document shows how to use the `TurtleCoind` JSON-RPC API.
+This document shows how to use the `BLOCd` JSON-RPC API.
 
-Running Turtlecoind
+Running BLOCd
 -------------------
 
 Before you start using the Python integration, make sure that you are
-running `TurtleCoind` with the `enable_blockexplorer` argument set:
+running `BLOCd` with the `enable_blockexplorer` argument set:
 
 .. code-block:: bash
 
-    ./TurtleCoind --enable_blockexplorer
+    ./BLOCd --enable_blockexplorer
 
 After starting it make sure the blockchain is synchronized.
 This might take a while. The console log will show a message when it's done:
 
 .. code-block:: console
 
-    Successfully synchronized with the TurtleCoin Network
+    Successfully synchronized with the BLOC Network
 
 The python integration can now be used.
 
 Usage
 -----
 
-For all available methods see the full :ref:`API documentation <turtlecoind_api>`.
+For all available methods see the full :ref:`API documentation <blocd_api>`.
 
 To print the current block-height:
 
 .. code-block:: python
 
-    from turtlecoin import Turtlecoind
+    from bloc import BLOCd
 
-    turtle = TurtleCoind()
-    turtle.getblockcount()['count']
+    bloc = BLOCd()
+    bloc.getblockcount()['count']
     286373

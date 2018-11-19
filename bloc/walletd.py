@@ -386,7 +386,7 @@ class Walletd:
     def get_fee_info(self):
         """
         Gets the fee address and amount (if any) from the node that the
-        turtle-service instance is currently connected to. This fee will be
+        bloc-service instance is currently connected to. This fee will be
         automatically sent to the address on every sendTransaction() and
         sendDelayedTransaction() request. Note that it does not apply to
         sendFusionTransaction().

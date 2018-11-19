@@ -4,12 +4,12 @@ import requests
 import json
 
 
-class TurtleCoind:
+class BLOCd:
     """
-    Integrates with JSON-RPC interface of `TurtleCoind`.
+    Integrates with JSON-RPC interface of `BLOCd`.
     """
 
-    def __init__(self, host='127.0.0.1', port=11898):
+    def __init__(self, host='127.0.0.1', port=2086):
         self.url = f'http://{host}:{port}'
         self.headers = {'content-type': 'application/json'}
 

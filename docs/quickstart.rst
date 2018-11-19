@@ -9,7 +9,7 @@ In all examples below only the `result` is included.
 
 .. code-block:: python
 
-    from turtlecoin import Wallet
+    from bloc import Wallet
 
     wallet = Wallet(password='test')
 

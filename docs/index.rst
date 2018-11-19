@@ -1,28 +1,28 @@
-turtlecoin-python
+bloc-python
 =================
 
-.. image:: https://img.shields.io/pypi/v/turtlecoin.svg
-	:target: https://pypi.python.org/pypi/turtlecoin
+.. image:: https://img.shields.io/pypi/v/bloc.svg
+	:target: https://pypi.python.org/pypi/bloc
 
-.. image:: https://img.shields.io/pypi/pyversions/turtlecoin.svg
-	:target: https://pypi.python.org/pypi/turtlecoin
+.. image:: https://img.shields.io/pypi/pyversions/bloc.svg
+	:target: https://pypi.python.org/pypi/bloc
 
-.. image:: https://img.shields.io/pypi/l/turtlecoin.svg
-	:target: https://pypi.python.org/pypi/turtlecoin
+.. image:: https://img.shields.io/pypi/l/bloc.svg
+	:target: https://pypi.python.org/pypi/bloc
 
-turtlecoin-python is a Python wrapper for the TurtleCoin JSON-RPC API.
-It integrates with :ref:`walletd` and :ref:`turtlecoind`.
+bloc-python is a Python wrapper for the BLOC JSON-RPC API.
+It integrates with :ref:`walletd` and :ref:`blocd`.
 
 Source Code
 -----------
 
-You can find the source code at GitHub: https://github.com/arthurk/turtlecoin-python
+You can find the source code at GitHub: https://github.com/arthurk/bloc-python
 
 Requirements
 ------------
 
 - Python 3.6
-- `TurtleCoin 0.5.0 <https://github.com/turtlecoin/turtlecoin/releases/tag/v0.5.0>`_
+- `BLOC 0.5.0 <https://github.com/bloc/bloc/releases/tag/v0.5.0>`_
 
 Installation
 ------------
@@ -31,7 +31,7 @@ You can install the latest version with pip:
 
 .. code-block:: bash
 
-    $ pip install turtlecoin
+    $ pip install bloc
 
 Contents
 --------
@@ -40,7 +40,7 @@ Contents
    :maxdepth: 2
 
    walletd
-   Turtlecoind
+   BLOCd
 
 The API Documentation / Guide
 -----------------------------
@@ -57,7 +57,7 @@ this part of the documentation is for you.
 Development
 -----------
 
-If you plan to work on the turtlecoin-python itself, it is useful to have
+If you plan to work on the bloc-python itself, it is useful to have
 DEBUG logging enabled. You can do this with the following code snippet:
 
 .. code-block:: python
@@ -81,4 +81,4 @@ being sent to the JSON-RPC interface::
         "password": ""
     }
     2018-04-05 16:20:09,204 DEBUG    Starting new HTTP connection (1): 127.0.0.1
-    2018-04-05 16:20:09,206 DEBUG    http://127.0.0.1:11898 "POST /json_rpc HTTP/1.1" 200 406
+    2018-04-05 16:20:09,206 DEBUG    http://127.0.0.1:2086 "POST /json_rpc HTTP/1.1" 200 406

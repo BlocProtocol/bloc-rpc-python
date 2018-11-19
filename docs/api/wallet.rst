@@ -3,6 +3,6 @@
 Walletd API Reference
 =====================
 
-.. module:: turtlecoin
+.. module:: bloc
 .. autoclass:: Walletd
     :members:

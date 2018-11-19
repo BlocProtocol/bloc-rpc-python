@@ -16,19 +16,19 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-import turtlecoin  # noqa
+import bloc  # noqa
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'turtlecoin-python'
+project = 'bloc-python'
 copyright = '2018, Arthur Koziel'
 author = 'Arthur Koziel'
 
 # The short X.Y version
-version = turtlecoin.__version__
+version = bloc.__version__
 # The full version, including alpha/beta/rc tags
-release = turtlecoin.__version__
+release = bloc.__version__
 
 
 # -- General configuration ---------------------------------------------------
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'turtlecoin-pythondoc'
+htmlhelp_basename = 'bloc-pythondoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -132,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'turtlecoin-python.tex', 'turtlecoin-python Documentation',
+    (master_doc, 'bloc-python.tex', 'bloc-python Documentation',
      'Arthur Koziel', 'manual'),
 ]
 
@@ -142,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'turtlecoin-python', 'turtlecoin-python Documentation',
+    (master_doc, 'bloc-python', 'bloc-python Documentation',
      [author], 1)
 ]
 
@@ -153,8 +153,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'turtlecoin-python', 'turtlecoin-python Documentation',
-     author, 'turtlecoin-python', 'One line description of project.',
+    (master_doc, 'bloc-python', 'bloc-python Documentation',
+     author, 'bloc-python', 'One line description of project.',
      'Miscellaneous'),
 ]
 

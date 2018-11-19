@@ -1,8 +1,8 @@
-.. _turtlecoind_api:
+.. _blocd_api:
 
-Turtlecoind API Reference
+BLOCd API Reference
 =========================
 
-.. module:: turtlecoin
-.. autoclass:: TurtleCoind
+.. module:: bloc
+.. autoclass:: BLOCd
     :members:

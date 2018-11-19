@@ -34,7 +34,7 @@ address as well as the balance.
 
 .. code-block:: python
 
-    from turtlecoin import Walletd
+    from bloc import Walletd
 
     wallet = Wallet(password='test')
     wallet.get_address()
@@ -48,7 +48,7 @@ helper from the utils package:
 
 .. code-block:: python
 
-    from turtlecoin.utils import format_amount
+    from bloc.utils import format_amount
 
     balance = wallet.get_balance()
     format_amount(balance['availableBalance'])
