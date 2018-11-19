@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'bloc'
 DESCRIPTION = 'A Python wrapper for the BLOC JSON-RPC interface'
-URL = 'https://github.com/arthurk/bloc-python/'
+URL = 'https://github.com/furiousteam/bloc-rpc-python.git'
 EMAIL = 'arthur@arthurkoziel.com'
 AUTHOR = 'Arthur Koziel'
 REQUIRES_PYTHON = '>=3.6.0'
