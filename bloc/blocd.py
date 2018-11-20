@@ -10,7 +10,8 @@ class BLOCd:
     """
 
     def __init__(self, host='127.0.0.1', port=2086):
-        self.url = f'http://{host}:{port}'
+        # self.url = f'http://{host}:{port}' # python 3 syntax
+        self.url = 'http://{host}:{port}'.format(**locals())
         self.headers = {'content-type': 'application/json'}
 
     def _make_request(self, method, **kwargs):

@@ -56,6 +56,9 @@ coverage.xml
 .media/
 local_settings.py
 
+# local test:
+optimize.py
+
 # Flask stuff:
 instance/
 .webassets-cache

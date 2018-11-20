@@ -15,7 +15,8 @@ class Walletd:
     """
 
     def __init__(self, password, host='127.0.0.1', port=8070):
-        self.url = f'http://{host}:{port}/json_rpc'
+        # self.url = f'http://{host}:{port}/json_rpc' # python 3 syntax
+        self.url = 'http://{host}:{port}'.format(**locals())
         self.headers = {'content-type': 'application/json'}
         self.password = password
 
